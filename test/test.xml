@@ -1,7 +1,7 @@
 <test>
     <test-case id = "1">
         <q>/start</q>
-        <a state = "Правила"</a>
+        <a state = "Правила"/>
         <q>Нет</q>
         <a state = "/Правила/Согласен?/Нет"/>
     </test-case>
