@@ -67,7 +67,8 @@
       "name" : "Number",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     } ],
     "priority" : 0
   }, {
@@ -91,7 +92,8 @@
       "name" : "Number",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ "Я загадал число. Твоя догадка?", "Предположи число" ]
+      "prompts" : [ "Я загадал число. Твоя догадка?", "Предположи число" ],
+      "array" : false
     } ],
     "priority" : 0
   } ],

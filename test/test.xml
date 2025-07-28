@@ -1,18 +1,16 @@
 <test>
-    <test-case id="1">
+    <test-case id = "1">
         <q>/start</q>
-        <a state="Правила"/>
+        <a state = "Правила"</a>
         <q>Нет</q>
-        <a state="/Правила/Согласен?/Нет"/>
+        <a state = "/Правила/Согласен?/Нет"/>
     </test-case>
-
-    <test-case id="2">
+    <test-case id = "2">
         <q>/start</q>
-        <a state="Правила"/>
+        <a state = "Правила"/>
         <q>как дела?</q>
-        <a state="NoMatch"/>
+        <a state = "NoMatch"/>
     </test-case>
-
     <test-case id="3">
         <random>1,2</random>
         <q>/NoMatch</q>
@@ -22,9 +20,8 @@
         <q>/NoMatch</q>
         <a>Я не понял</a>
     </test-case>
-
-    <test-case id="4">
-        <q>/start</q>
+    <test-case id = "4">
+        <q>/Start</q>
         <a>Игра больше-меньше. Загадаю число от 0 до 100, ты будешь отгадывать. Начнём?</a>
         <q>да</q>
         <random>23</random>
