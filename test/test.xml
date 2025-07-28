@@ -1,15 +1,15 @@
 <test>
     <test-case id = "1">
         <q>/start</q>
-        <a state = "Правила"/>
+        <a state = "/Правила"/>
         <q>Нет</q>
-        <a state = "/Правила/Согласен?/Нет"/>
+        <a state = "/Правила/Согласен?/Несогласие"/>
     </test-case>
     <test-case id = "2">
         <q>/start</q>
-        <a state = "Правила"/>
+        <a state = "/Правила"/>
         <q>как дела?</q>
-        <a state = "NoMatch"/>
+        <a state = "/NoMatch"/>
     </test-case>
     <test-case id="3">
         <random>1,2</random>
