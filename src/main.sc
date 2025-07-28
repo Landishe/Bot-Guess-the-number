@@ -43,7 +43,7 @@ theme: /
                         $reactions.answer(selectRandomArg (["Мое число больше!", "Бери выше", "Попробуй число еще раз"]));
                     else $reactions.answer(SelectRandomArg(["Мое число меньше!", "Подсказка: число меньше", "Дам тебе еще одну попытку! Мое число меньше."]));
             
-    state: NoMatch  || context = true
+    state: NoMatch  || noContext = true
         event!: noMatch
             random:
                 a: я не понял
