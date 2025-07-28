@@ -37,7 +37,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/Не согласен",
+    "path" : "/Несогласие",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -71,7 +71,7 @@
     } ],
     "priority" : 0
   }, {
-    "path" : "/Согласен",
+    "path" : "/Согласие",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {

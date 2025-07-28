@@ -1,4 +1,4 @@
-require: slotfilling/slotfilling.sc
+require: slotfilling/slotFilling.sc
     module = sys.zb-common
 
 require: common.js
@@ -31,8 +31,6 @@ theme: /
     state: Проверка
         intent: /Число
         
-        
-        intetnt!: /Число
         script:
             # сохраняем введенное пользователем число
             var num = $parseTree._Number;
