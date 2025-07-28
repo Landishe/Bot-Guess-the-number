@@ -33,8 +33,8 @@ theme: /
         
     state: NoMatch  || noContext = true
         event!: noMatch
-            random:
-                a: я не понял
-                a: Что вы имеете в виду?
-                a: Ничего не пойму
+        random:
+            a: я не понял
+            a: Что вы имеете в виду?
+            a: Ничего не пойму
 
